@@ -9,6 +9,7 @@ int main()
 {
 
   assert(sum(5,5) == 10);
+  assert(sum(5,5) == 11);
   std::cout << "HelloWorld!";
   return 0;
 }
