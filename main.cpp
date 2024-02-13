@@ -8,7 +8,7 @@ int sum(int a, int b)
 int main()
 {
 
-  assert(Sum(5,5) == 10);
+  assert(sum(5,5) == 10);
   std::cout << "HelloWorld!";
   return 0;
 }
