@@ -5,11 +5,20 @@ int sum(int a, int b)
 {
   return a + b;
 }
+
+void 
+{
+  std::cout << "wrong";
+  assert(sum(5,5) == 5);
+}
+void RightAnswer()
+{
+  std::cout << "succesful";
+  assert(sum(5,5) == 10);
+}
+
 int main()
 {
-
-  assert(sum(5,5) == 10);
-  assert(sum(5,5) == 11);
-  std::cout << "HelloWorld!";
-  return 0;
+  WrongAnswer();
+  RightAnswer();
 }
